@@ -112,7 +112,7 @@ const Projects = () => {
                   {project.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
-                      className="text-xs font-medium px-3 py-1 rounded-full bg-[rgba(192,132,252,0.1)] text-[var(--color-accent-blue-glass)] border border-[rgba(192,132,252,0.2)]"
+                      className="text-xs font-medium px-3 py-1 rounded-full bg-[rgba(64,89,253,0.1)] text-[var(--color-accent-blue-glass)] border border-[rgba(192,132,252,0.2)]"
                     >
                       {tag}
                     </span>

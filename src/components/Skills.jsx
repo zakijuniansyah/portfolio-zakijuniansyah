@@ -16,91 +16,91 @@ const Skills = () => {
   const skillsList = [
     {
       name: "HTML",
-      image: "/src/image/html.png",
+      image: "/image/html.png",
     },
     {
       name: "CSS",
-      image: "/src/image/css.png",
+      image: "/image/css.png",
     },
     {
       name: "JavaScript",
-      image: "/src/image/javascript1.png",
+      image: "/image/javascript1.png",
     },
     {
       name: "ReactJS",
-      image: "/src/image/reactjs.png",
+      image: "/image/reactjs.png",
     },
     {
       name: "Vite",
-      image: "/src/image/vite.png",
+      image: "/image/vite.png",
     },
     {
       name: "PHP",
-      image: "/src/image/php.png",
+      image: "/image/php.png",
     },
     {
       name: "Laravel",
-      image: "/src/image/laravel.png",
+      image: "/image/laravel.png",
     },
     {
       name: "Boostrap",
-      image: "/src/image/bootstrap.png",
+      image: "/image/bootstrap.png",
     },
     {
       name: "Tailwind",
-      image: "/src/image/tailwind.png",
+      image: "/image/tailwind.png",
     },
     {
       name: "Sass",
-      image: "/src/image/sass.png",
+      image: "/image/sass.png",
     },
     {
       name: "Python",
-      image: "/src/image/python.png",
+      image: "/image/python.png",
     },
     {
       name: "Java",
-      image: "/src/image/java.png",
+      image: "/image/java.png",
     },
     {
       name: "C++",
-      image: "/src/image/c++.png",
+      image: "/image/c++.png",
     },
     {
       name: "Github",
-      image: "/src/image/github.png",
+      image: "/image/github.png",
     },
     {
       name: "Git",
-      image: "/src/image/git.png",
+      image: "/image/git.png",
     },
     {
       name: "Postman",
-      image: "/src/image/postman.png",
+      image: "/image/postman.png",
     },
     {
       name: "Rest Api",
-      image: "/src/image/restApi.png",
+      image: "/image/restApi.png",
     },
     {
       name: "Vscode",
-      image: "/src/image/vscode.png",
+      image: "/image/vscode.png",
     },
     {
       name: "Mysql",
-      image: "/src/image/mysql.png",
+      image: "/image/mysql.png",
     },
     {
       name: "Mysql Workbench",
-      image: "/src/image/mysqlWorkbench.png",
+      image: "/image/mysqlWorkbench.png",
     },
     {
       name: "PostgreSql",
-      image: "/src/image/postgreSql.png",
+      image: "/image/postgreSql.png",
     },
     {
       name: "FireBase",
-      image: "/src/image/fireBase.png",
+      image: "/image/fireBase.png",
     },
   ];
 
