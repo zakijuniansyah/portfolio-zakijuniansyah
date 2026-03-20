@@ -92,7 +92,10 @@ const Projects = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               whileHover={{ y: -10, rotateX: 5, rotateY: -5, scale: 1.02 }}
-              style={{ perspective: 1000 }}
+              style={{
+                perspective: 1000,
+                "--glow-color": "rgba(37, 99, 235, 0.25)",
+              }}
               className="glass rounded-3xl overflow-hidden group border border-[rgba(255,255,255,0.05)] hover:border-[var(--color-accent-blue-neon)] transition-colors duration-500 glow-box flex flex-col h-full"
             >
               {/* Project Content */}

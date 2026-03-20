@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import profile from "../assets/zaki.png";
 
 const About = () => {
   return (
@@ -90,8 +91,8 @@ const About = () => {
           >
             <div className="relative">
               <img
-                src="/src/assets/zaki.png"
-                alt="Zaki"
+                src={profile}
+                alt="Zaki Juniansyah"
                 className="w-100 h-125 object-cover rounded-4xl border border-[rgba(255,255,255,0.1)] shadow-lg"
               />
             </div>
