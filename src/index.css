@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #050505;
+  --color-accent-lavender: #a78bfa;
+  --color-accent-pink: #f472b6;
+  --color-accent-purple: #a855f7;
+  --color-accent-neon: #9333ea;
+
+  /* Blue Modern */
+  --color-accent-blue-primary: #3b82f6;
+  --color-accent-blue-soft: #60a5fa;
+  --color-accent-blue-deep: #1d4ed8;
+  --color-accent-blue-neon: #2563eb;
+  --color-accent-blue-glass: #93c5fd;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bg-dark);
+    color: #f3f4f6;
+  }
+}
+
+/* Custom Utilities for Glassmorphism & Glow */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 10px rgba(192, 132, 252, 0.5);
+  }
+
+  .glow-box {
+    box-shadow: 0 0 15px var(--glow-color, rgba(168, 85, 247, 0.2));
+  }
+
+  .glow-box-hover:hover {
+    box-shadow: 0 0 25px var(--glow-color, rgba(192, 132, 252, 0.4));
+  }
+}
