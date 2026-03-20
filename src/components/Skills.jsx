@@ -24,7 +24,7 @@ const Skills = () => {
     },
     {
       name: "JavaScript",
-      image: "/image/javascript1.png",
+      image: "/image/javascript.png",
     },
     {
       name: "ReactJS",

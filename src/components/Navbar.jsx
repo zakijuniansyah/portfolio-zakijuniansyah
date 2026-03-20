@@ -69,20 +69,28 @@ const Navbar = () => {
       {/* Mobile Nav Menu */}
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="md:hidden glass absolute top-full left-0 w-full py-4 border-t border-[rgba(255,255,255,0.1)]"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.3, ease: "easeOut" }}
+          className="md:hidden absolute top-full left-0 w-full backdrop-blur-xl bg-[rgba(10,10,15,0.8)] border-t border-white/10 shadow-2xl"
         >
-          <div className="flex flex-col items-center space-y-4">
+          <div className="flex flex-col items-center py-6 space-y-3">
             {navLinks.map((link, index) => (
-              <a
+              <motion.a
                 key={index}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-gray-300 hover:text-white transition-colors text-lg"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                className="relative text-gray-300 text-lg font-medium px-6 py-2 rounded-xl transition-all duration-300 hover:text-white hover:bg-white/5"
               >
                 {link.name}
-              </a>
+
+                {/* Hover underline effect */}
+                <span className="absolute left-1/2 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-blue-400 to-purple-500 transition-all duration-300 group-hover:w-1/2 group-hover:left-1/4"></span>
+              </motion.a>
             ))}
           </div>
         </motion.div>
