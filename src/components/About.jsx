@@ -37,19 +37,20 @@ const About = () => {
             </h3>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6 text-justify max-w-3xl mx-auto">
-              Hello, I’m Zaki Juniansyah, a Junior Web Developer skilled in
-              React.js and Laravel. I have hands-on experience building
-              fullstack web applications, including authentication systems,
-              RESTful API development and integration, CRUD operations, and
-              payment gateway integration using Midtrans. I am also experienced
-              in implementing role-based access control, middleware protection,
-              and relational database design. I enjoy creating responsive and
-              interactive user interfaces on the frontend, while building
-              secure, scalable, and well-structured backend systems. Through
-              various projects such as e-commerce systems, inventory management,
-              HR systems, and task management applications, I have developed
-              strong problem-solving skills and a solid understanding of
-              real-world application development.
+              Hello, I'm Zaki Juniansyah, a full-stack web developer focusing on
+              the backend using Laravel and the frontend using React.js. I have
+              experience building end-to-end web applications, including
+              developing RESTful APIs, authentication and authorization systems,
+              and structured and scalable CRUD operations. I also have
+              experience integrating third-party services such as the Midtrans
+              payment gateway, managing file uploads, and designing relational
+              databases. On the frontend side, I'm capable of building
+              responsive interfaces and integrating them optimally with the
+              backend. Some of the projects I've worked on include e-commerce
+              systems, inventory management, HR systems, and task management
+              applications. I have strong problem-solving skills and am ready to
+              contribute to the development of efficient and high-quality
+              applications.
             </p>
 
             <p className="text-gray-400 text-base leading-relaxed mb-10 text-center md:text-left">
