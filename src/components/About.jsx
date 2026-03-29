@@ -38,7 +38,7 @@ const About = () => {
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6 text-justify max-w-3xl mx-auto">
               Hello, I'm Zaki Juniansyah, a full-stack web developer focusing on
-              the backend using Laravel and the frontend using React.js. I have
+              the backend using Laravel and the frontend using React.js and Vue.js. I have
               experience building end-to-end web applications, including
               developing RESTful APIs, authentication and authorization systems,
               and structured and scalable CRUD operations. I also have

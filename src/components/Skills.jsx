@@ -31,6 +31,10 @@ const Skills = () => {
       image: "/image/reactjs.png",
     },
     {
+      name: "VueJS",
+      image: "/image/vue.png",
+    },
+    {
       name: "Vite",
       image: "/image/vite.png",
     },
