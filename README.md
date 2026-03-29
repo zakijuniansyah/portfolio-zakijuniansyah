@@ -1,16 +1,35 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello! 👋
+This is my personal portfolio website, showcasing my profile, technical skills, and the projects I have worked on.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**
+https://zakijuniansyah.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a **Junior Fullstack Web Developer** with a strong interest in building modern, scalable, and user-friendly web applications. I continuously improve my skills by working on real-world projects and exploring new technologies.
 
-## Expanding the ESLint configuration
+**Tech Stack & Skills:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* HTML, CSS, JavaScript, PHP
+* Laravel
+* React.js
+* Vue.js
+* MySQL
+* RESTful API Development
+
+---
+
+## 🚀 Website Features
+
+* ✨ Modern and responsive design
+* 📱 Fully mobile-friendly
+* 🧑‍💼 Personal profile / About Me section
+* 💼 Project showcase with details
+* 🔗 Links to live demos and repositories
+* 📬 Contact and social media integration
+
+---
